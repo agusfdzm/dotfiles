@@ -1,3 +1,6 @@
+command = /usr/bin/zsh
+shell-integration = zsh
+
 font-size = 12
 
 window-padding-x = 12
@@ -12,3 +15,8 @@ cursor-style-blink = false
 shell-integration = detect
 
 confirm-close-surface = false
+
+## ATAJOS
+
+keybind = ctrl+shift+c=copy_to_clipboard
+keybind = ctrl+shift+v=paste_from_clipboard
