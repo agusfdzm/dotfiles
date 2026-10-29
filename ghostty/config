@@ -20,3 +20,6 @@ confirm-close-surface = false
 
 keybind = ctrl+shift+c=copy_to_clipboard
 keybind = ctrl+shift+v=paste_from_clipboard
+
+# Abrir siempre maximizada
+maximize = true

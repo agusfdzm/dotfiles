@@ -7,3 +7,12 @@ alias ..="cd .."
 alias ...="cd ../.."
 
 eval "$(starship init zsh)"
+export PATH=$PATH:$HOME/go/bin
+export PATH=$PATH:$(go env GOPATH)/bin
+export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
+
+# Mostrar información del sistema al abrir la terminal
+if [[ -o interactive ]] && command -v fastfetch >/dev/null 2>&1; then
+    fastfetch
+fi
